@@ -13,6 +13,9 @@
 		2671D09126FD13820015DE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2671D08F26FD13820015DE27 /* Main.storyboard */; };
 		2671D09326FD13850015DE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2671D09226FD13850015DE27 /* Assets.xcassets */; };
 		2671D09626FD13850015DE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2671D09426FD13850015DE27 /* LaunchScreen.storyboard */; };
+		26AC64C526FDB416006A751A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC64C426FDB416006A751A /* Observable.swift */; };
+		26AC64C726FDB459006A751A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC64C626FDB459006A751A /* Model.swift */; };
+		26AC64C926FDB47D006A751A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AC64C826FDB47D006A751A /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2671D09226FD13850015DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2671D09526FD13850015DE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2671D09726FD13850015DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AC64C426FDB416006A751A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		26AC64C626FDB459006A751A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		26AC64C826FDB47D006A751A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				2671D09226FD13850015DE27 /* Assets.xcassets */,
 				2671D09426FD13850015DE27 /* LaunchScreen.storyboard */,
 				2671D09726FD13850015DE27 /* Info.plist */,
+				26AC64C426FDB416006A751A /* Observable.swift */,
+				26AC64C626FDB459006A751A /* Model.swift */,
+				26AC64C826FDB47D006A751A /* ViewModel.swift */,
 			);
 			path = MVVMTutorial;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AC64C726FDB459006A751A /* Model.swift in Sources */,
+				26AC64C526FDB416006A751A /* Observable.swift in Sources */,
 				2671D08E26FD13820015DE27 /* ViewController.swift in Sources */,
 				2671D08A26FD13820015DE27 /* AppDelegate.swift in Sources */,
+				26AC64C926FDB47D006A751A /* ViewModel.swift in Sources */,
 				2671D08C26FD13820015DE27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
